@@ -1,0 +1,3 @@
+C:/Users/epida/Desktop/prozorovsky/shit/cmake-build-debug/CMakeFiles/shit.dir
+C:/Users/epida/Desktop/prozorovsky/shit/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/epida/Desktop/prozorovsky/shit/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/Users/hafarid/Desktop/Diplom/code/build/CMakeFiles/diploma.dir
+/Users/hafarid/Desktop/Diplom/code/build/CMakeFiles/edit_cache.dir
+/Users/hafarid/Desktop/Diplom/code/build/CMakeFiles/rebuild_cache.dir
