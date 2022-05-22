@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hafarid/Desktop/Diplom/code
+# Install script for directory: /Users/hafarid/Desktop/Diplom/code-for-diploma
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/hafarid/Desktop/Diplom/code/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/hafarid/Desktop/Diplom/code-for-diploma/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

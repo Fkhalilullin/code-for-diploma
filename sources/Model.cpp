@@ -8,7 +8,7 @@ Model::~Model() {
 
 }
 
-void Model::createModel() {
+void Model::create() {
     Geometry geometry; 
     Mesh mesh;
     
@@ -16,5 +16,9 @@ void Model::createModel() {
     gmsh::model::add("mesh");
     geometry.create();
     mesh.create();
-    
+    gmsh::model::geo::synchronize();
+    gmsh::model::mesh::generate(2);
+    gmsh::write("model.msh");
+
+
 }

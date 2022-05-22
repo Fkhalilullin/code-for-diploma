@@ -1,18 +1,12 @@
 #include <gmsh.h>
 #include <set>
-#include "geometry.hpp"
+#include "includes/Model.hpp"
 
 
 int main(int argc, char **argv) {
-    Geometry geometry;
+    Model model;
 
-    gmsh::initialize();
-    gmsh::model::add("mesh");
-    geometry.create();
-    gmsh::model::geo::synchronize();
-    gmsh::model::mesh::generate(2);
-    gmsh::write("mesh.msh");
-
+    model.create();
     std::set<std::string> args(argv, argv + argc);
     if(!args.count("-nopopup")) gmsh::fltk::run();
     gmsh::finalize();

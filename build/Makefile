@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.23.1_1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hafarid/Desktop/Diplom/code
+CMAKE_SOURCE_DIR = /Users/hafarid/Desktop/Diplom/code-for-diploma
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hafarid/Desktop/Diplom/code/build
+CMAKE_BINARY_DIR = /Users/hafarid/Desktop/Diplom/code-for-diploma/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hafarid/Desktop/Diplom/code/build/CMakeFiles /Users/hafarid/Desktop/Diplom/code/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles /Users/hafarid/Desktop/Diplom/code-for-diploma/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hafarid/Desktop/Diplom/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,30 +129,6 @@ diploma/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/build
 .PHONY : diploma/fast
 
-geometry.o: geometry.cpp.o
-.PHONY : geometry.o
-
-# target to build an object file
-geometry.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/geometry.cpp.o
-.PHONY : geometry.cpp.o
-
-geometry.i: geometry.cpp.i
-.PHONY : geometry.i
-
-# target to preprocess a source file
-geometry.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/geometry.cpp.i
-.PHONY : geometry.cpp.i
-
-geometry.s: geometry.cpp.s
-.PHONY : geometry.s
-
-# target to generate assembly for a file
-geometry.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/geometry.cpp.s
-.PHONY : geometry.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -177,6 +153,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sources/Geometry.o: sources/Geometry.cpp.o
+.PHONY : sources/Geometry.o
+
+# target to build an object file
+sources/Geometry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Geometry.cpp.o
+.PHONY : sources/Geometry.cpp.o
+
+sources/Geometry.i: sources/Geometry.cpp.i
+.PHONY : sources/Geometry.i
+
+# target to preprocess a source file
+sources/Geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Geometry.cpp.i
+.PHONY : sources/Geometry.cpp.i
+
+sources/Geometry.s: sources/Geometry.cpp.s
+.PHONY : sources/Geometry.s
+
+# target to generate assembly for a file
+sources/Geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Geometry.cpp.s
+.PHONY : sources/Geometry.cpp.s
+
+sources/Mesh.o: sources/Mesh.cpp.o
+.PHONY : sources/Mesh.o
+
+# target to build an object file
+sources/Mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Mesh.cpp.o
+.PHONY : sources/Mesh.cpp.o
+
+sources/Mesh.i: sources/Mesh.cpp.i
+.PHONY : sources/Mesh.i
+
+# target to preprocess a source file
+sources/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Mesh.cpp.i
+.PHONY : sources/Mesh.cpp.i
+
+sources/Mesh.s: sources/Mesh.cpp.s
+.PHONY : sources/Mesh.s
+
+# target to generate assembly for a file
+sources/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Mesh.cpp.s
+.PHONY : sources/Mesh.cpp.s
+
+sources/Model.o: sources/Model.cpp.o
+.PHONY : sources/Model.o
+
+# target to build an object file
+sources/Model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Model.cpp.o
+.PHONY : sources/Model.cpp.o
+
+sources/Model.i: sources/Model.cpp.i
+.PHONY : sources/Model.i
+
+# target to preprocess a source file
+sources/Model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Model.cpp.i
+.PHONY : sources/Model.cpp.i
+
+sources/Model.s: sources/Model.cpp.s
+.PHONY : sources/Model.s
+
+# target to generate assembly for a file
+sources/Model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Model.cpp.s
+.PHONY : sources/Model.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... diploma"
-	@echo "... geometry.o"
-	@echo "... geometry.i"
-	@echo "... geometry.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sources/Geometry.o"
+	@echo "... sources/Geometry.i"
+	@echo "... sources/Geometry.s"
+	@echo "... sources/Mesh.o"
+	@echo "... sources/Mesh.i"
+	@echo "... sources/Mesh.s"
+	@echo "... sources/Model.o"
+	@echo "... sources/Model.i"
+	@echo "... sources/Model.s"
 .PHONY : help
 
 

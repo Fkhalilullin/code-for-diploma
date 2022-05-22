@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/hafarid/Desktop/Diplom/code/gmsh-lib/include
+CXX_INCLUDES = -I/Users/hafarid/Desktop/Diplom/code-for-diploma/gmsh-lib/include
 
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++20
 

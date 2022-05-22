@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hafarid/Desktop/Diplom/code/geometry.cpp" "CMakeFiles/diploma.dir/geometry.cpp.o" "gcc" "CMakeFiles/diploma.dir/geometry.cpp.o.d"
-  "/Users/hafarid/Desktop/Diplom/code/main.cpp" "CMakeFiles/diploma.dir/main.cpp.o" "gcc" "CMakeFiles/diploma.dir/main.cpp.o.d"
+  "/Users/hafarid/Desktop/Diplom/code-for-diploma/main.cpp" "CMakeFiles/diploma.dir/main.cpp.o" "gcc" "CMakeFiles/diploma.dir/main.cpp.o.d"
+  "/Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Geometry.cpp" "CMakeFiles/diploma.dir/sources/Geometry.cpp.o" "gcc" "CMakeFiles/diploma.dir/sources/Geometry.cpp.o.d"
+  "/Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Mesh.cpp" "CMakeFiles/diploma.dir/sources/Mesh.cpp.o" "gcc" "CMakeFiles/diploma.dir/sources/Mesh.cpp.o.d"
+  "/Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Model.cpp" "CMakeFiles/diploma.dir/sources/Model.cpp.o" "gcc" "CMakeFiles/diploma.dir/sources/Model.cpp.o.d"
   )
 
 # Targets to which this target links.

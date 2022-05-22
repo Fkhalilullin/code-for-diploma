@@ -1,7 +1,8 @@
-CMakeFiles/diploma.dir/geometry.cpp.o: \
-  /Users/hafarid/Desktop/Diplom/code/geometry.cpp \
-  /Users/hafarid/Desktop/Diplom/code/geometry.hpp \
-  /Users/hafarid/Desktop/Diplom/code/gmsh-lib/include/gmsh.h \
+CMakeFiles/diploma.dir/sources/Model.cpp.o: \
+  /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Model.cpp \
+  /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/../includes/Model.hpp \
+  /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/../includes/../includes/Geometry.hpp \
+  /Users/hafarid/Desktop/Diplom/code-for-diploma/gmsh-lib/include/gmsh.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -181,4 +182,5 @@ CMakeFiles/diploma.dir/geometry.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/_types/_wctrans_t.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/../includes/../includes/Mesh.hpp

@@ -1,6 +1,6 @@
 #pragma once 
-#include "includes/geometry.hpp"
-#include "includes/mesh.hpp"
+#include "../includes/Geometry.hpp"
+#include "../includes/Mesh.hpp"
 #include <gmsh.h>
 
 class Model : public Geometry, Mesh {
