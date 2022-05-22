@@ -15,9 +15,9 @@ void Model::create() {
     gmsh::model::add("mesh");
 
     geometry.createGeometry();
-    geometry.createPhysicalGroup();
     geometry.createCurveLoopAndPlaneSurface();
     gmsh::model::geo::synchronize();
+    geometry.createPhysicalGroup();
     gmsh::model::mesh::generate(2);
     gmsh::write("model.msh");
 
