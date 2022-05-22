@@ -19,13 +19,14 @@ void Geometry::createPhysicalGroup () {
 }
 
 void Geometry::createCurveLoopAndPlaneSurface() {
-    int curve_1, curve_2, curve_3, curve_4;
+    int curve_1, curve_2;
     curve_1 =  gmsh::model::geo::addCurveLoop({circle_2, circle_1}, 1);
     curve_2 =  gmsh::model::geo::addCurveLoop({line_4, line_1, line_2, line_3}, 2);  
     gmsh::model::geo::addPlaneSurface({curve_1, curve_2});
-    curve_3 =  gmsh::model::geo::addCurveLoop({line_1, line_2, line_3, line_4,}, 3);  
-    curve_4 =  gmsh::model::geo::addCurveLoop({circle_2, circle_1}, 4);
-    gmsh::model::geo::addPlaneSurface({curve_3, curve_4});
+    
+    // curve_3 =  gmsh::model::geo::addCurveLoop({line_1, line_2, line_3, line_4,}, 3);  
+    // curve_4 =  gmsh::model::geo::addCurveLoop({circle_2, circle_1}, 4);
+    // gmsh::model::geo::addPlaneSurface({curve_3, curve_4});
 }
 
 
