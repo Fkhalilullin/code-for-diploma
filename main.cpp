@@ -18,14 +18,10 @@ int main(int argc, char **argv) {
     std::vector<std::vector<std::size_t> > elemTags, elemNodeTags;
     gmsh::model::mesh::getElements(elemTypes, elemTags, elemNodeTags);
 
+    std::set<std::string> args(argv, argv + argc);
+    if(!args.count("-nopopup")) gmsh::fltk::run();
 
-    std::cout << "\n" << std::size(elemTypes);
-    std::cout << "\n" << std::size(nodeTags);
-    std::cout << "\n" << std::size(nodeCoords);
-    std::cout << "\n" << std::size(nodeParams);
-    std::cout << "\n" << std::size(elemTypes);
-    std::cout << "\n" << std::size(elemTypes);
-    
+    gmsh::finalize();
 }
 
 
