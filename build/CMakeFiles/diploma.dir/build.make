@@ -97,24 +97,10 @@ CMakeFiles/diploma.dir/sources/Geometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/Geometry.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Geometry.cpp -o CMakeFiles/diploma.dir/sources/Geometry.cpp.s
 
-CMakeFiles/diploma.dir/sources/Mesh.cpp.o: CMakeFiles/diploma.dir/flags.make
-CMakeFiles/diploma.dir/sources/Mesh.cpp.o: ../sources/Mesh.cpp
-CMakeFiles/diploma.dir/sources/Mesh.cpp.o: CMakeFiles/diploma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/diploma.dir/sources/Mesh.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diploma.dir/sources/Mesh.cpp.o -MF CMakeFiles/diploma.dir/sources/Mesh.cpp.o.d -o CMakeFiles/diploma.dir/sources/Mesh.cpp.o -c /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Mesh.cpp
-
-CMakeFiles/diploma.dir/sources/Mesh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diploma.dir/sources/Mesh.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Mesh.cpp > CMakeFiles/diploma.dir/sources/Mesh.cpp.i
-
-CMakeFiles/diploma.dir/sources/Mesh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/Mesh.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Mesh.cpp -o CMakeFiles/diploma.dir/sources/Mesh.cpp.s
-
 CMakeFiles/diploma.dir/sources/Model.cpp.o: CMakeFiles/diploma.dir/flags.make
 CMakeFiles/diploma.dir/sources/Model.cpp.o: ../sources/Model.cpp
 CMakeFiles/diploma.dir/sources/Model.cpp.o: CMakeFiles/diploma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/diploma.dir/sources/Model.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/diploma.dir/sources/Model.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diploma.dir/sources/Model.cpp.o -MF CMakeFiles/diploma.dir/sources/Model.cpp.o.d -o CMakeFiles/diploma.dir/sources/Model.cpp.o -c /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Model.cpp
 
 CMakeFiles/diploma.dir/sources/Model.cpp.i: cmake_force
@@ -125,20 +111,34 @@ CMakeFiles/diploma.dir/sources/Model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/Model.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Model.cpp -o CMakeFiles/diploma.dir/sources/Model.cpp.s
 
+CMakeFiles/diploma.dir/sources/Mesh.cpp.o: CMakeFiles/diploma.dir/flags.make
+CMakeFiles/diploma.dir/sources/Mesh.cpp.o: ../sources/Mesh.cpp
+CMakeFiles/diploma.dir/sources/Mesh.cpp.o: CMakeFiles/diploma.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/diploma.dir/sources/Mesh.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diploma.dir/sources/Mesh.cpp.o -MF CMakeFiles/diploma.dir/sources/Mesh.cpp.o.d -o CMakeFiles/diploma.dir/sources/Mesh.cpp.o -c /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Mesh.cpp
+
+CMakeFiles/diploma.dir/sources/Mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diploma.dir/sources/Mesh.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Mesh.cpp > CMakeFiles/diploma.dir/sources/Mesh.cpp.i
+
+CMakeFiles/diploma.dir/sources/Mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/Mesh.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Mesh.cpp -o CMakeFiles/diploma.dir/sources/Mesh.cpp.s
+
 # Object files for target diploma
 diploma_OBJECTS = \
 "CMakeFiles/diploma.dir/main.cpp.o" \
 "CMakeFiles/diploma.dir/sources/Geometry.cpp.o" \
-"CMakeFiles/diploma.dir/sources/Mesh.cpp.o" \
-"CMakeFiles/diploma.dir/sources/Model.cpp.o"
+"CMakeFiles/diploma.dir/sources/Model.cpp.o" \
+"CMakeFiles/diploma.dir/sources/Mesh.cpp.o"
 
 # External object files for target diploma
 diploma_EXTERNAL_OBJECTS =
 
 diploma: CMakeFiles/diploma.dir/main.cpp.o
 diploma: CMakeFiles/diploma.dir/sources/Geometry.cpp.o
-diploma: CMakeFiles/diploma.dir/sources/Mesh.cpp.o
 diploma: CMakeFiles/diploma.dir/sources/Model.cpp.o
+diploma: CMakeFiles/diploma.dir/sources/Mesh.cpp.o
 diploma: CMakeFiles/diploma.dir/build.make
 diploma: CMakeFiles/diploma.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable diploma"

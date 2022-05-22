@@ -3,7 +3,7 @@
 #include "../includes/Mesh.hpp"
 #include <gmsh.h>
 
-class Model : public Geometry, Mesh {
+class Model : public Geometry, Mesh{
 public:
     Model();
     ~Model();

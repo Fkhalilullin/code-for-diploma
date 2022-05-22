@@ -11,5 +11,5 @@ link_libraries(Gmsh)
 add_executable(diploma 
 main.cpp 
 sources/Geometry.cpp
-sources/Mesh.cpp
-sources/Model.cpp)
+sources/Model.cpp
+sources/Mesh.cpp)

@@ -10,15 +10,15 @@ Model::~Model() {
 
 void Model::create() {
     Geometry geometry; 
-    Mesh mesh;
     
     gmsh::initialize();
     gmsh::model::add("mesh");
-    geometry.create();
-    mesh.create();
+
+    geometry.createGeometry();
+    geometry.createPhysicalGroup();
+    geometry.createCurveLoopAndPlaneSurface();
     gmsh::model::geo::synchronize();
     gmsh::model::mesh::generate(2);
     gmsh::write("model.msh");
-
 
 }

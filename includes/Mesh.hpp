@@ -1,12 +1,8 @@
 #pragma once 
 
-class Mesh
-{
+class Mesh {
 public:
     Mesh();
     ~Mesh();
-    void create();
-private:
-
+    void config();
 };
-

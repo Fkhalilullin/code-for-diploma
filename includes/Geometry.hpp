@@ -6,9 +6,11 @@ class Geometry {
 public:
     Geometry();
     ~Geometry();
-    void create();
+    void createGeometry();
+    void createPhysicalGroup();
+    void createCurveLoopAndPlaneSurface();
     
-private:
+// private:
     void initPoint();
     void initCirle();
     void initLine();
