@@ -2,7 +2,8 @@
 
 #include <vector>
 
-/*Класс, в котором задаются начальные условия и начальные параметры*/
+/*Класс InitParam, 
+в котором задаются начальные условия и начальные параметры*/
 
 class InitParam {
 public:
@@ -25,7 +26,7 @@ private:
     double timeBegin;
     double timeEnd;
     double timeStep;
-    double x_speed;
-    double y_speed;
+    double xSpeed;
+    double ySpeed;
     
 };

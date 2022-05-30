@@ -6,8 +6,8 @@ InitParam::InitParam(double timeBegin, double timeEnd,
                 this->timeBegin = timeBegin;
                 this->timeEnd = timeEnd;
                 this->timeStep = timeStep;
-                this->x_speed = speed;
-                this->y_speed = 0;
+                this->xSpeed = speed;
+                this->ySpeed = 0;
                 this->globalMatrix = globalMatrix;
             }
 
@@ -28,5 +28,5 @@ double InitParam::getTimeStep() {
 }
 
 double InitParam::getXSpeed() {
-    return this->x_speed;
+    return this->xSpeed;
 }
