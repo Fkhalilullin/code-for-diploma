@@ -8,11 +8,15 @@ include_directories(gmsh-lib/include)
 link_directories(gmsh-lib/lib)
 link_libraries(Gmsh)
 
-add_executable(diploma 
+add_executable (
+diploma 
 main.cpp 
 sources/Geometry.cpp
 sources/Model.cpp
 sources/Mesh.cpp
 sources/InitParam.cpp
 sources/Point.cpp
-sources/Node.cpp)
+sources/Node.cpp
+sources/ThreeNode.cpp
+sources/Triangle.cpp
+)
