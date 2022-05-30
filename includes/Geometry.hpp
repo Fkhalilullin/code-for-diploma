@@ -6,6 +6,7 @@ class Geometry {
 public:
     Geometry();
     ~Geometry();
+    
     void createGeometry();
     void createPhysicalGroup();
     void createCurveLoopAndPlaneSurface();

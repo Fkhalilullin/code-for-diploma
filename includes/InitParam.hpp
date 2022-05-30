@@ -7,7 +7,6 @@
 
 class InitParam {
 public:
-
     InitParam(double timeBegin, double timeEnd, 
             double timeStep, double speed,
             std::vector<std::vector<double>> globalMatrix);
@@ -21,7 +20,6 @@ public:
     double getYSpeed();
 
 private:
-
     std::vector<std::vector<double>> globalMatrix;
     double timeBegin;
     double timeEnd;

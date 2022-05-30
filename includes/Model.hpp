@@ -7,5 +7,6 @@ class Model : public Geometry, Mesh{
 public:
     Model();
     ~Model();
+    
     void create();
 };
