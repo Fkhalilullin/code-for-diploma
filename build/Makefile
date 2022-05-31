@@ -177,6 +177,30 @@ sources/Geometry.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Geometry.cpp.s
 .PHONY : sources/Geometry.cpp.s
 
+sources/InitParam.o: sources/InitParam.cpp.o
+.PHONY : sources/InitParam.o
+
+# target to build an object file
+sources/InitParam.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/InitParam.cpp.o
+.PHONY : sources/InitParam.cpp.o
+
+sources/InitParam.i: sources/InitParam.cpp.i
+.PHONY : sources/InitParam.i
+
+# target to preprocess a source file
+sources/InitParam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/InitParam.cpp.i
+.PHONY : sources/InitParam.cpp.i
+
+sources/InitParam.s: sources/InitParam.cpp.s
+.PHONY : sources/InitParam.s
+
+# target to generate assembly for a file
+sources/InitParam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/InitParam.cpp.s
+.PHONY : sources/InitParam.cpp.s
+
 sources/Mesh.o: sources/Mesh.cpp.o
 .PHONY : sources/Mesh.o
 
@@ -225,6 +249,102 @@ sources/Model.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Model.cpp.s
 .PHONY : sources/Model.cpp.s
 
+sources/Node.o: sources/Node.cpp.o
+.PHONY : sources/Node.o
+
+# target to build an object file
+sources/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Node.cpp.o
+.PHONY : sources/Node.cpp.o
+
+sources/Node.i: sources/Node.cpp.i
+.PHONY : sources/Node.i
+
+# target to preprocess a source file
+sources/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Node.cpp.i
+.PHONY : sources/Node.cpp.i
+
+sources/Node.s: sources/Node.cpp.s
+.PHONY : sources/Node.s
+
+# target to generate assembly for a file
+sources/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Node.cpp.s
+.PHONY : sources/Node.cpp.s
+
+sources/Point.o: sources/Point.cpp.o
+.PHONY : sources/Point.o
+
+# target to build an object file
+sources/Point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Point.cpp.o
+.PHONY : sources/Point.cpp.o
+
+sources/Point.i: sources/Point.cpp.i
+.PHONY : sources/Point.i
+
+# target to preprocess a source file
+sources/Point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Point.cpp.i
+.PHONY : sources/Point.cpp.i
+
+sources/Point.s: sources/Point.cpp.s
+.PHONY : sources/Point.s
+
+# target to generate assembly for a file
+sources/Point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Point.cpp.s
+.PHONY : sources/Point.cpp.s
+
+sources/ThreeNode.o: sources/ThreeNode.cpp.o
+.PHONY : sources/ThreeNode.o
+
+# target to build an object file
+sources/ThreeNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o
+.PHONY : sources/ThreeNode.cpp.o
+
+sources/ThreeNode.i: sources/ThreeNode.cpp.i
+.PHONY : sources/ThreeNode.i
+
+# target to preprocess a source file
+sources/ThreeNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/ThreeNode.cpp.i
+.PHONY : sources/ThreeNode.cpp.i
+
+sources/ThreeNode.s: sources/ThreeNode.cpp.s
+.PHONY : sources/ThreeNode.s
+
+# target to generate assembly for a file
+sources/ThreeNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/ThreeNode.cpp.s
+.PHONY : sources/ThreeNode.cpp.s
+
+sources/Triangle.o: sources/Triangle.cpp.o
+.PHONY : sources/Triangle.o
+
+# target to build an object file
+sources/Triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Triangle.cpp.o
+.PHONY : sources/Triangle.cpp.o
+
+sources/Triangle.i: sources/Triangle.cpp.i
+.PHONY : sources/Triangle.i
+
+# target to preprocess a source file
+sources/Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Triangle.cpp.i
+.PHONY : sources/Triangle.cpp.i
+
+sources/Triangle.s: sources/Triangle.cpp.s
+.PHONY : sources/Triangle.s
+
+# target to generate assembly for a file
+sources/Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diploma.dir/build.make CMakeFiles/diploma.dir/sources/Triangle.cpp.s
+.PHONY : sources/Triangle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,12 +360,27 @@ help:
 	@echo "... sources/Geometry.o"
 	@echo "... sources/Geometry.i"
 	@echo "... sources/Geometry.s"
+	@echo "... sources/InitParam.o"
+	@echo "... sources/InitParam.i"
+	@echo "... sources/InitParam.s"
 	@echo "... sources/Mesh.o"
 	@echo "... sources/Mesh.i"
 	@echo "... sources/Mesh.s"
 	@echo "... sources/Model.o"
 	@echo "... sources/Model.i"
 	@echo "... sources/Model.s"
+	@echo "... sources/Node.o"
+	@echo "... sources/Node.i"
+	@echo "... sources/Node.s"
+	@echo "... sources/Point.o"
+	@echo "... sources/Point.i"
+	@echo "... sources/Point.s"
+	@echo "... sources/ThreeNode.o"
+	@echo "... sources/ThreeNode.i"
+	@echo "... sources/ThreeNode.s"
+	@echo "... sources/Triangle.o"
+	@echo "... sources/Triangle.i"
+	@echo "... sources/Triangle.s"
 .PHONY : help
 
 

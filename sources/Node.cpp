@@ -1,5 +1,9 @@
 #include "../includes/Node.hpp"
 
+Node::Node() {}
+
+Node::~Node() {}
+
 Node::Node(int index, double x, double y,
             double xSpeed, double ySpeed) {
     this->index = index;
@@ -58,3 +62,4 @@ double Node::getXSpeed() {
 
 double Node::getYSpeed() {
     return this->ySpeed;
+}

@@ -1,11 +1,12 @@
 #pragma once 
 
 #include <vector>
+#include <iostream>
 #include "Node.hpp"
+#include <map>
 
 
 /* Класс треугольник */
-
 class Triangle {
 public:
     Triangle(int index, Node n1, Node n2, Node n3,
@@ -15,13 +16,17 @@ public:
     void setNeighbours(Node n1, Node n2, Node n3);
 
     double calcArea();
-    std::vector<std::vector<double>> calcM()
+    std::vector<std::vector<double>> calcM();
+    std::map<int, std::vector<double>> calcCoeffs();
 
     std::vector<Node> initVertices();
     std::vector<Node> initAllNodes();
 
 
-    double getArea();
+
+    double  getArea();
+    Node    getNode(int index);
+
 private:
     int index;
 // Узлы треугольника:
@@ -41,7 +46,7 @@ private:
     std::vector<Node> vertices;
 // Вектор всех узлов:
     std::vector<Node> allNodes;
-
+    std::map< int, std::vector<double> > coeffs; 
 //Додумать
 /*
     self.coeffs = self.calc_coeffs()

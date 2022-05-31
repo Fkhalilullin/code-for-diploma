@@ -3,6 +3,7 @@
 /* Класс Node, в котором реализована узловая точка */
 class Node {
 public:
+    Node();
     Node(int index, double x, double y, 
             double xSpeed, double ySpeed);
     ~Node();

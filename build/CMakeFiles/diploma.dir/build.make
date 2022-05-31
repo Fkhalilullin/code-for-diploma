@@ -125,12 +125,87 @@ CMakeFiles/diploma.dir/sources/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/Mesh.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Mesh.cpp -o CMakeFiles/diploma.dir/sources/Mesh.cpp.s
 
+CMakeFiles/diploma.dir/sources/InitParam.cpp.o: CMakeFiles/diploma.dir/flags.make
+CMakeFiles/diploma.dir/sources/InitParam.cpp.o: ../sources/InitParam.cpp
+CMakeFiles/diploma.dir/sources/InitParam.cpp.o: CMakeFiles/diploma.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/diploma.dir/sources/InitParam.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diploma.dir/sources/InitParam.cpp.o -MF CMakeFiles/diploma.dir/sources/InitParam.cpp.o.d -o CMakeFiles/diploma.dir/sources/InitParam.cpp.o -c /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/InitParam.cpp
+
+CMakeFiles/diploma.dir/sources/InitParam.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diploma.dir/sources/InitParam.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/InitParam.cpp > CMakeFiles/diploma.dir/sources/InitParam.cpp.i
+
+CMakeFiles/diploma.dir/sources/InitParam.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/InitParam.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/InitParam.cpp -o CMakeFiles/diploma.dir/sources/InitParam.cpp.s
+
+CMakeFiles/diploma.dir/sources/Point.cpp.o: CMakeFiles/diploma.dir/flags.make
+CMakeFiles/diploma.dir/sources/Point.cpp.o: ../sources/Point.cpp
+CMakeFiles/diploma.dir/sources/Point.cpp.o: CMakeFiles/diploma.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/diploma.dir/sources/Point.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diploma.dir/sources/Point.cpp.o -MF CMakeFiles/diploma.dir/sources/Point.cpp.o.d -o CMakeFiles/diploma.dir/sources/Point.cpp.o -c /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Point.cpp
+
+CMakeFiles/diploma.dir/sources/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diploma.dir/sources/Point.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Point.cpp > CMakeFiles/diploma.dir/sources/Point.cpp.i
+
+CMakeFiles/diploma.dir/sources/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/Point.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Point.cpp -o CMakeFiles/diploma.dir/sources/Point.cpp.s
+
+CMakeFiles/diploma.dir/sources/Node.cpp.o: CMakeFiles/diploma.dir/flags.make
+CMakeFiles/diploma.dir/sources/Node.cpp.o: ../sources/Node.cpp
+CMakeFiles/diploma.dir/sources/Node.cpp.o: CMakeFiles/diploma.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/diploma.dir/sources/Node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diploma.dir/sources/Node.cpp.o -MF CMakeFiles/diploma.dir/sources/Node.cpp.o.d -o CMakeFiles/diploma.dir/sources/Node.cpp.o -c /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Node.cpp
+
+CMakeFiles/diploma.dir/sources/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diploma.dir/sources/Node.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Node.cpp > CMakeFiles/diploma.dir/sources/Node.cpp.i
+
+CMakeFiles/diploma.dir/sources/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/Node.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Node.cpp -o CMakeFiles/diploma.dir/sources/Node.cpp.s
+
+CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o: CMakeFiles/diploma.dir/flags.make
+CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o: ../sources/ThreeNode.cpp
+CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o: CMakeFiles/diploma.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o -MF CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o.d -o CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o -c /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/ThreeNode.cpp
+
+CMakeFiles/diploma.dir/sources/ThreeNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diploma.dir/sources/ThreeNode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/ThreeNode.cpp > CMakeFiles/diploma.dir/sources/ThreeNode.cpp.i
+
+CMakeFiles/diploma.dir/sources/ThreeNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/ThreeNode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/ThreeNode.cpp -o CMakeFiles/diploma.dir/sources/ThreeNode.cpp.s
+
+CMakeFiles/diploma.dir/sources/Triangle.cpp.o: CMakeFiles/diploma.dir/flags.make
+CMakeFiles/diploma.dir/sources/Triangle.cpp.o: ../sources/Triangle.cpp
+CMakeFiles/diploma.dir/sources/Triangle.cpp.o: CMakeFiles/diploma.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/diploma.dir/sources/Triangle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/diploma.dir/sources/Triangle.cpp.o -MF CMakeFiles/diploma.dir/sources/Triangle.cpp.o.d -o CMakeFiles/diploma.dir/sources/Triangle.cpp.o -c /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Triangle.cpp
+
+CMakeFiles/diploma.dir/sources/Triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diploma.dir/sources/Triangle.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Triangle.cpp > CMakeFiles/diploma.dir/sources/Triangle.cpp.i
+
+CMakeFiles/diploma.dir/sources/Triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diploma.dir/sources/Triangle.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hafarid/Desktop/Diplom/code-for-diploma/sources/Triangle.cpp -o CMakeFiles/diploma.dir/sources/Triangle.cpp.s
+
 # Object files for target diploma
 diploma_OBJECTS = \
 "CMakeFiles/diploma.dir/main.cpp.o" \
 "CMakeFiles/diploma.dir/sources/Geometry.cpp.o" \
 "CMakeFiles/diploma.dir/sources/Model.cpp.o" \
-"CMakeFiles/diploma.dir/sources/Mesh.cpp.o"
+"CMakeFiles/diploma.dir/sources/Mesh.cpp.o" \
+"CMakeFiles/diploma.dir/sources/InitParam.cpp.o" \
+"CMakeFiles/diploma.dir/sources/Point.cpp.o" \
+"CMakeFiles/diploma.dir/sources/Node.cpp.o" \
+"CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o" \
+"CMakeFiles/diploma.dir/sources/Triangle.cpp.o"
 
 # External object files for target diploma
 diploma_EXTERNAL_OBJECTS =
@@ -139,9 +214,14 @@ diploma: CMakeFiles/diploma.dir/main.cpp.o
 diploma: CMakeFiles/diploma.dir/sources/Geometry.cpp.o
 diploma: CMakeFiles/diploma.dir/sources/Model.cpp.o
 diploma: CMakeFiles/diploma.dir/sources/Mesh.cpp.o
+diploma: CMakeFiles/diploma.dir/sources/InitParam.cpp.o
+diploma: CMakeFiles/diploma.dir/sources/Point.cpp.o
+diploma: CMakeFiles/diploma.dir/sources/Node.cpp.o
+diploma: CMakeFiles/diploma.dir/sources/ThreeNode.cpp.o
+diploma: CMakeFiles/diploma.dir/sources/Triangle.cpp.o
 diploma: CMakeFiles/diploma.dir/build.make
 diploma: CMakeFiles/diploma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable diploma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hafarid/Desktop/Diplom/code-for-diploma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable diploma"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/diploma.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

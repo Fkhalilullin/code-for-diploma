@@ -13,6 +13,7 @@ Triangle::Triangle(int index, Node n1, Node n2, Node n3,
 
     this->area = calcArea();
     this->M = calcM();
+    this->coeffs = calcCoeffs();
 
     this->vertices = initVertices();
     this->allNodes = initAllNodes();
@@ -26,7 +27,7 @@ double Triangle::calcArea() {
         n1.getX() * (n2.getY() - n3.getY()) +
         n2.getX() * (n3.getY() - n1.getY()) +
         n3.getX() * (n1.getY() - n2.getY())
-    )
+    );
 }
 
 const std::vector<std::vector<double>> M = {
@@ -38,7 +39,7 @@ const std::vector<std::vector<double>> M = {
     {0.0, -1.0/45, 0.0, 4.0/45, 4.0/45, 8.0/45}
 };
 
-std::vector<std::vector<double>> Triangle:calcM() {
+std::vector<std::vector<double>> Triangle::calcM() {
     std::vector < std::vector <double> > res(6, std::vector <double> (6) );
 
     for (int i = 0; i < 6; i++) {
@@ -51,22 +52,68 @@ std::vector<std::vector<double>> Triangle:calcM() {
 }
 
 std::vector<Node> Triangle::initVertices() {
-     this->vertices.push_back(n1);
-     this->vertices.push_back(n2);
-     this->vertices.push_back(n3);
+    std::vector<Node> vertices;
+
+    vertices.push_back(n1);
+    vertices.push_back(n2);
+    vertices.push_back(n3);
+
+    return vertices;
 }
 
 std::vector<Node> Triangle::initAllNodes() {
-     this->allNodes.push_back(n1);
-     this->allNodes.push_back(n2);
-     this->allNodes.push_back(n3);
-     this->allNodes.push_back(n4);
-     this->allNodes.push_back(n5);
-     this->allNodes.push_back(n6);
+    std::vector<Node> allNodes;
+
+    allNodes.push_back(n1);
+    allNodes.push_back(n2);
+    allNodes.push_back(n3);
+    allNodes.push_back(n4);
+    allNodes.push_back(n5);
+    allNodes.push_back(n6);
+
+    return allNodes;
 }
-
-
 
 double Triangle::getArea() {
     return this->area;
+}
+
+
+Node Triangle::getNode(int index) {
+    Node node;
+    for (int i = 0; i < allNodes.size(); i++) {
+        if (allNodes[i].getIndex() == index) {
+            return allNodes[i];
+        }
+    }
+    std::cout << "Error in getNode func Triangle class \n";
+    return node;
+}
+
+std::map<int, std::vector<double>> Triangle::calcCoeffs() {
+    std::map<int, std::vector<double>> coef;
+
+    std::vector <std::vector <double>> m(6, std::vector <double> (6));
+    
+    for (int i = 0; i < allNodes.size(); i++) {
+        std::vector<double> vec {
+            allNodes[i].getX() * allNodes[i].getX(),
+            allNodes[i].getX() * allNodes[i].getY(),
+            allNodes[i].getY() * allNodes[i].getY(),
+            allNodes[i].getX(),
+            allNodes[i].getY(),
+            1.0
+        };
+        m[i].push_back(vec);
+        vec.clear();
+    }
+
+    for (int i = 0; i < allNodes.size(); i++) {
+        std::vector<double> result {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+        result[i] = 1;
+
+        std::vector<double> x;
+        // x = culculate() 
+        coef[allNodes[i].getIndex()] = x;
+    }
 }
