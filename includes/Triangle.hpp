@@ -12,8 +12,18 @@ public:
             Node n4, Node n5, Node n6);
     ~Triangle();
 
+    void setNeighbours(Node n1, Node n2, Node n3);
 
+    double calcArea();
+    std::vector<std::vector<double>> calcM()
+
+    std::vector<Node> initVertices();
+    std::vector<Node> initAllNodes();
+
+
+    double getArea();
 private:
+    int index;
 // Узлы треугольника:
     Node n1;
     Node n2;
