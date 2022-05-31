@@ -17,7 +17,6 @@ Triangle::Triangle(int index, Node n1, Node n2, Node n3,
 
     this->vertices = initVertices();
     this->allNodes = initAllNodes();
-
 }
 
 
@@ -79,11 +78,11 @@ double Triangle::getArea() {
 }
 
 
-Node Triangle::getNode(int index) {
+Node Triangle::getNode(std::vector<Node> nodes ,int index) {
     Node node;
-    for (int i = 0; i < allNodes.size(); i++) {
-        if (allNodes[i].getIndex() == index) {
-            return allNodes[i];
+    for (int i = 0; i < nodes.size(); i++) {
+        if (nodes[i].getIndex() == index) {
+            return nodes[i];
         }
     }
     std::cout << "Error in getNode func Triangle class \n";
@@ -93,7 +92,7 @@ Node Triangle::getNode(int index) {
 std::map<int, std::vector<double>> Triangle::calcCoeffs() {
     std::map<int, std::vector<double>> coef;
 
-    std::vector <std::vector <double>> m(6, std::vector <double> (6));
+    std::vector <std::vector<double>> m(6, std::vector <double> (6));
     
     for (int i = 0; i < allNodes.size(); i++) {
         std::vector<double> vec {
@@ -104,7 +103,7 @@ std::map<int, std::vector<double>> Triangle::calcCoeffs() {
             allNodes[i].getY(),
             1.0
         };
-        m[i].push_back(vec);
+        m.push_back(vec);
         vec.clear();
     }
 
@@ -116,4 +115,35 @@ std::map<int, std::vector<double>> Triangle::calcCoeffs() {
         // x = culculate() 
         coef[allNodes[i].getIndex()] = x;
     }
+
+	return coeffs;
+}
+ double Triangle::calcPolynomValue(Node n, std::vector<double> coeffs) {
+		Node p = n;
+		std::vector<double> cs = coeffs;
+
+        return cs[0] * p.getX() * p.getX() + 
+		cs[1] * p.getX() * p.getY() + 
+		cs[2] * p.getY() * p.getY() + 
+		cs[3] * p.getX() + 
+		cs[4] * p.getY() + 
+		cs[5];
+ }
+
+std::vector<double> Triangle::calcSpeed() {
+    Node n;
+    double x_speed = 0;
+    double y_speed = 0;
+    std::vector<double> speed;
+
+    for(std::map<int, std::vector<double>>::iterator iter = coeffs.begin(); 
+        iter != coeffs.end(); ++iter) {
+            n = getNode(allNodes, iter->first);
+            x_speed = calcPolynomValue(n, iter->second) * n.getXSpeed();
+            y_speed = calcPolynomValue(n, iter->second) * n.getYSpeed();
+    }
+
+	speed.push_back(x_speed);
+	speed.push_back(y_speed);
+    return speed;
 }

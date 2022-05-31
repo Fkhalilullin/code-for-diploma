@@ -15,19 +15,21 @@ public:
 
     void setNeighbours(Node n1, Node n2, Node n3);
 
-    double calcArea();
-    std::vector<std::vector<double>> calcM();
-    std::map<int, std::vector<double>> calcCoeffs();
+    double                              calcArea();
+    std::vector<std::vector<double>>    calcM();
+    std::map<int, std::vector<double>>  calcCoeffs();
+    std::vector<double>                 calcSpeed();
+    double                              calcPolynomValue(Node n, std::vector<double> coeffs);
+
 
     std::vector<Node> initVertices();
     std::vector<Node> initAllNodes();
 
-
-
     double  getArea();
-    Node    getNode(int index);
+    Node    getNode(std::vector<Node> nodes, int index);
 
 private:
+
     int index;
 // Узлы треугольника:
     Node n1;
@@ -46,7 +48,11 @@ private:
     std::vector<Node> vertices;
 // Вектор всех узлов:
     std::vector<Node> allNodes;
+
     std::map< int, std::vector<double> > coeffs; 
+
+// Вектор скорости x_speed, y_speed
+    std::vector<double> speed;
 //Додумать
 /*
     self.coeffs = self.calc_coeffs()
